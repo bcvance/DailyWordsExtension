@@ -2,3 +2,6 @@
 db.sqlite
 .venv/
 *.pyc
+.env
+
+
