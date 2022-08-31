@@ -1,0 +1,26 @@
+{
+    "name": "Daily Words",
+    "description": "Extension that sends you daily word definitions based on words you encounter online.",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "key":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhy06+wk5ogZogir8HmKIj4mtv8zUJpOey/gX6rRH9KCuhiM7RmIEV0n7chf+fQawVuzyqRrGjeU+nhAgoEV6Vyn51NNprxhx5sWb92XIoDrrQro7mTd+xHptXWJQTLSfgzu/L2PBPNRaoRkaoSgalgU2G0kP2YTBfqX4172SkO6hpM3DSVAGH+Ut22VjGaKVoBNuuCYfRmZtwLAc35JXfj8jIow5GVjNXDbArlxCrL/jZZ1Nwvie2oYg0PV0JCavf7+Wqx8083PakdcytiVykcbxh9kzrqUwtMgCRUHf3y7gAeFoCUcCaE9el8wEZODJEeeSw+c09RH9bYTfDvn6rQIDAQAB",
+    "background": {
+        "service_worker": "dist/background.js",
+        "type": "module"
+    },
+    "permissions": ["storage", "identity"],
+    "host_permissions": ["http://localhost:5000/*"],
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["jquery.js", "dist/content.js"]
+        }
+    ],
+    "options_ui": {
+        "page": "src/options.html",
+        "open_in_tab": false
+    },
+    "action": {
+        "default_popup": "popup.html"
+    }
+}

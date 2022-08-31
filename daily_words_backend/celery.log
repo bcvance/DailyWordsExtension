@@ -1,0 +1,235 @@
+[2022-08-24 01:12:10,565: INFO/MainProcess] Connected to redis://localhost:6379//
+[2022-08-24 01:12:10,569: INFO/MainProcess] mingle: searching for neighbors
+[2022-08-24 01:12:11,583: INFO/MainProcess] mingle: all alone
+[2022-08-24 01:12:11,620: WARNING/MainProcess] /Users/b.vance/Coding Projects/daily_words_project/daily_words_backend/.venv/lib/python3.9/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-08-24 01:12:11,621: INFO/MainProcess] celery@Bens-MacBook-Air.local ready.
+[2022-08-24 01:12:11,626: INFO/MainProcess] Task print_msg_main[a7bb8698-3045-46ca-a291-22059b28836a] received
+[2022-08-24 01:12:11,631: INFO/MainProcess] Task print_msg_main[e429a362-59d5-40a0-8c85-7858fd87c8e5] received
+[2022-08-24 01:12:11,631: WARNING/ForkPoolWorker-1] Celery is working!! Message is Hello
+[2022-08-24 01:12:11,636: WARNING/ForkPoolWorker-3] Celery is working!! Message is Hello
+[2022-08-24 01:12:11,640: INFO/ForkPoolWorker-1] Task print_msg_main[a7bb8698-3045-46ca-a291-22059b28836a] succeeded in 0.00992624200000014s: None
+[2022-08-24 01:12:11,644: INFO/ForkPoolWorker-3] Task print_msg_main[e429a362-59d5-40a0-8c85-7858fd87c8e5] succeeded in 0.009308991999999794s: None
+[2022-08-24 01:12:16,491: INFO/MainProcess] Task print_msg_main[996484dc-6836-40c0-97c0-f56e6da9701f] received
+[2022-08-24 01:12:16,492: WARNING/ForkPoolWorker-1] Celery is working!! Message is Hello
+[2022-08-24 01:12:16,494: INFO/ForkPoolWorker-1] Task print_msg_main[996484dc-6836-40c0-97c0-f56e6da9701f] succeeded in 0.0014642650000000756s: None
+[2022-08-24 01:12:26,491: INFO/MainProcess] Task print_msg_main[95d5878e-ff92-4102-8999-a240d33b1efd] received
+[2022-08-24 01:12:26,492: WARNING/ForkPoolWorker-1] Celery is working!! Message is Hello
+[2022-08-24 01:12:26,494: INFO/ForkPoolWorker-1] Task print_msg_main[95d5878e-ff92-4102-8999-a240d33b1efd] succeeded in 0.0015787779999989482s: None
+[2022-08-24 01:12:36,490: INFO/MainProcess] Task print_msg_main[8c78787b-4f85-4c1f-8ac1-91d1c7b7fb9f] received
+[2022-08-24 01:12:36,491: WARNING/ForkPoolWorker-1] Celery is working!! Message is Hello
+[2022-08-24 01:12:36,493: INFO/ForkPoolWorker-1] Task print_msg_main[8c78787b-4f85-4c1f-8ac1-91d1c7b7fb9f] succeeded in 0.0017361220000005062s: None
+[2022-08-24 01:18:33,330: INFO/MainProcess] Connected to redis://localhost:6379//
+[2022-08-24 01:18:33,336: INFO/MainProcess] mingle: searching for neighbors
+[2022-08-24 01:18:34,349: INFO/MainProcess] mingle: all alone
+[2022-08-24 01:18:34,382: WARNING/MainProcess] /Users/b.vance/Coding Projects/daily_words_project/daily_words_backend/.venv/lib/python3.9/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-08-24 01:18:34,382: INFO/MainProcess] celery@Bens-MacBook-Air.local ready.
+[2022-08-24 01:18:34,386: INFO/MainProcess] Task send_daily_words_task[2eea168b-7210-44c1-919c-6dbdd1e3a824] received
+[2022-08-24 01:18:34,616: INFO/ForkPoolWorker-1] -- BEGIN Twilio API Request --
+[2022-08-24 01:18:34,619: INFO/ForkPoolWorker-1] POST Request: https://api.twilio.com/2010-04-01/Accounts/AC91d35f2c7e8830c6f30c8dcc79b59382/Messages.json
+[2022-08-24 01:18:34,620: INFO/ForkPoolWorker-1] Headers:
+[2022-08-24 01:18:34,620: INFO/ForkPoolWorker-1] User-Agent : twilio-python/7.12.1 (Darwin x86_64) Python/3.9.13
+[2022-08-24 01:18:34,621: INFO/ForkPoolWorker-1] X-Twilio-Client : python-7.12.1
+[2022-08-24 01:18:34,622: INFO/ForkPoolWorker-1] Accept-Charset : utf-8
+[2022-08-24 01:18:34,622: INFO/ForkPoolWorker-1] Content-Type : application/x-www-form-urlencoded
+[2022-08-24 01:18:34,622: INFO/ForkPoolWorker-1] Accept : application/json
+[2022-08-24 01:18:34,623: INFO/ForkPoolWorker-1] -- END Twilio API Request --
+[2022-08-24 01:18:35,125: INFO/ForkPoolWorker-1] Response Status Code: 201
+[2022-08-24 01:18:35,126: INFO/ForkPoolWorker-1] Response Headers: {'Date': 'Wed, 24 Aug 2022 01:18:35 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '1204', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ122e7baf5f59377a553b85175c914671', 'Twilio-Request-Duration': '0.143', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000'}
+[2022-08-24 01:18:35,134: INFO/ForkPoolWorker-1] Task send_daily_words_task[2eea168b-7210-44c1-919c-6dbdd1e3a824] succeeded in 0.7463094029999997s: None
+[2022-08-24 01:18:38,851: INFO/MainProcess] Task send_daily_words_task[61c24ddc-d291-4e8b-81e2-669d02084a04] received
+[2022-08-24 01:18:38,854: INFO/ForkPoolWorker-1] -- BEGIN Twilio API Request --
+[2022-08-24 01:18:38,854: INFO/ForkPoolWorker-1] POST Request: https://api.twilio.com/2010-04-01/Accounts/AC91d35f2c7e8830c6f30c8dcc79b59382/Messages.json
+[2022-08-24 01:18:38,854: INFO/ForkPoolWorker-1] Headers:
+[2022-08-24 01:18:38,855: INFO/ForkPoolWorker-1] User-Agent : twilio-python/7.12.1 (Darwin x86_64) Python/3.9.13
+[2022-08-24 01:18:38,855: INFO/ForkPoolWorker-1] X-Twilio-Client : python-7.12.1
+[2022-08-24 01:18:38,855: INFO/ForkPoolWorker-1] Accept-Charset : utf-8
+[2022-08-24 01:18:38,855: INFO/ForkPoolWorker-1] Content-Type : application/x-www-form-urlencoded
+[2022-08-24 01:18:38,855: INFO/ForkPoolWorker-1] Accept : application/json
+[2022-08-24 01:18:38,856: INFO/ForkPoolWorker-1] -- END Twilio API Request --
+[2022-08-24 01:18:39,047: INFO/ForkPoolWorker-1] Response Status Code: 201
+[2022-08-24 01:18:39,049: INFO/ForkPoolWorker-1] Response Headers: {'Date': 'Wed, 24 Aug 2022 01:18:39 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '1204', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ0ab5cdbf90f15dedb5417b1013603866', 'Twilio-Request-Duration': '0.133', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000'}
+[2022-08-24 01:18:39,050: INFO/ForkPoolWorker-1] Task send_daily_words_task[61c24ddc-d291-4e8b-81e2-669d02084a04] succeeded in 0.19844002399999994s: None
+[2022-08-24 01:20:26,598: INFO/MainProcess] Connected to redis://localhost:6379//
+[2022-08-24 01:20:26,608: INFO/MainProcess] mingle: searching for neighbors
+[2022-08-24 01:20:27,623: INFO/MainProcess] mingle: all alone
+[2022-08-24 01:20:27,672: WARNING/MainProcess] /Users/b.vance/Coding Projects/daily_words_project/daily_words_backend/.venv/lib/python3.9/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-08-24 01:20:27,673: INFO/MainProcess] celery@Bens-MacBook-Air.local ready.
+[2022-08-24 01:20:52,383: INFO/MainProcess] Task send_daily_words_task[8754b2aa-5fc0-42ba-bec0-606a6b055b85] received
+[2022-08-24 01:20:52,621: INFO/ForkPoolWorker-1] -- BEGIN Twilio API Request --
+[2022-08-24 01:20:52,622: INFO/ForkPoolWorker-1] POST Request: https://api.twilio.com/2010-04-01/Accounts/AC91d35f2c7e8830c6f30c8dcc79b59382/Messages.json
+[2022-08-24 01:20:52,623: INFO/ForkPoolWorker-1] Headers:
+[2022-08-24 01:20:52,623: INFO/ForkPoolWorker-1] User-Agent : twilio-python/7.12.1 (Darwin x86_64) Python/3.9.13
+[2022-08-24 01:20:52,624: INFO/ForkPoolWorker-1] X-Twilio-Client : python-7.12.1
+[2022-08-24 01:20:52,624: INFO/ForkPoolWorker-1] Accept-Charset : utf-8
+[2022-08-24 01:20:52,625: INFO/ForkPoolWorker-1] Content-Type : application/x-www-form-urlencoded
+[2022-08-24 01:20:52,625: INFO/ForkPoolWorker-1] Accept : application/json
+[2022-08-24 01:20:52,625: INFO/ForkPoolWorker-1] -- END Twilio API Request --
+[2022-08-24 01:20:52,980: INFO/ForkPoolWorker-1] Response Status Code: 201
+[2022-08-24 01:20:52,981: INFO/ForkPoolWorker-1] Response Headers: {'Date': 'Wed, 24 Aug 2022 01:20:52 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '1204', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ967b61fd98a6134488c2b90b55e83442', 'Twilio-Request-Duration': '0.120', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000'}
+[2022-08-24 01:20:52,988: INFO/ForkPoolWorker-1] Task send_daily_words_task[8754b2aa-5fc0-42ba-bec0-606a6b055b85] succeeded in 0.6036807979999992s: None
+[2022-08-24 01:21:22,367: INFO/MainProcess] Task send_daily_words_task[055b1f14-3057-4ff4-92af-b4ec154748f9] received
+[2022-08-24 01:21:22,370: INFO/ForkPoolWorker-1] -- BEGIN Twilio API Request --
+[2022-08-24 01:21:22,370: INFO/ForkPoolWorker-1] POST Request: https://api.twilio.com/2010-04-01/Accounts/AC91d35f2c7e8830c6f30c8dcc79b59382/Messages.json
+[2022-08-24 01:21:22,371: INFO/ForkPoolWorker-1] Headers:
+[2022-08-24 01:21:22,371: INFO/ForkPoolWorker-1] User-Agent : twilio-python/7.12.1 (Darwin x86_64) Python/3.9.13
+[2022-08-24 01:21:22,371: INFO/ForkPoolWorker-1] X-Twilio-Client : python-7.12.1
+[2022-08-24 01:21:22,371: INFO/ForkPoolWorker-1] Accept-Charset : utf-8
+[2022-08-24 01:21:22,372: INFO/ForkPoolWorker-1] Content-Type : application/x-www-form-urlencoded
+[2022-08-24 01:21:22,372: INFO/ForkPoolWorker-1] Accept : application/json
+[2022-08-24 01:21:22,372: INFO/ForkPoolWorker-1] -- END Twilio API Request --
+[2022-08-24 01:21:22,558: INFO/ForkPoolWorker-1] Response Status Code: 201
+[2022-08-24 01:21:22,559: INFO/ForkPoolWorker-1] Response Headers: {'Date': 'Wed, 24 Aug 2022 01:21:22 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '1204', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ6a953850d4824da95b14bd41f86ead10', 'Twilio-Request-Duration': '0.128', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000'}
+[2022-08-24 01:21:22,560: INFO/ForkPoolWorker-1] Task send_daily_words_task[055b1f14-3057-4ff4-92af-b4ec154748f9] succeeded in 0.1919134970000016s: None
+[2022-08-25 03:15:17,183: INFO/MainProcess] Connected to redis://localhost:6379//
+[2022-08-25 03:15:17,190: INFO/MainProcess] mingle: searching for neighbors
+[2022-08-25 03:15:18,206: INFO/MainProcess] mingle: all alone
+[2022-08-25 03:15:18,233: WARNING/MainProcess] /Users/b.vance/Coding Projects/daily_words_project/daily_words_backend/.venv/lib/python3.9/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-08-25 03:15:18,234: INFO/MainProcess] celery@Bens-MacBook-Air.local ready.
+[2022-08-25 03:15:18,242: INFO/MainProcess] Task send_daily_words_task[537a81f6-95fd-4102-8f6c-710f6db3692b] received
+[2022-08-25 03:15:18,244: WARNING/ForkPoolWorker-1] send_daily_words executed
+[2022-08-25 03:15:18,479: INFO/ForkPoolWorker-1] -- BEGIN Twilio API Request --
+[2022-08-25 03:15:18,480: INFO/ForkPoolWorker-1] POST Request: https://api.twilio.com/2010-04-01/Accounts/AC91d35f2c7e8830c6f30c8dcc79b59382/Messages.json
+[2022-08-25 03:15:18,480: INFO/ForkPoolWorker-1] Headers:
+[2022-08-25 03:15:18,481: INFO/ForkPoolWorker-1] User-Agent : twilio-python/7.12.1 (Darwin x86_64) Python/3.9.13
+[2022-08-25 03:15:18,481: INFO/ForkPoolWorker-1] X-Twilio-Client : python-7.12.1
+[2022-08-25 03:15:18,482: INFO/ForkPoolWorker-1] Accept-Charset : utf-8
+[2022-08-25 03:15:18,482: INFO/ForkPoolWorker-1] Content-Type : application/x-www-form-urlencoded
+[2022-08-25 03:15:18,483: INFO/ForkPoolWorker-1] Accept : application/json
+[2022-08-25 03:15:18,483: INFO/ForkPoolWorker-1] -- END Twilio API Request --
+[2022-08-25 03:15:18,884: INFO/ForkPoolWorker-1] Response Status Code: 201
+[2022-08-25 03:15:18,885: INFO/ForkPoolWorker-1] Response Headers: {'Date': 'Thu, 25 Aug 2022 03:15:18 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '957', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ0c1f87ed5395db2f7692c9513d5df5ad', 'Twilio-Request-Duration': '0.124', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000'}
+[2022-08-25 03:15:18,888: INFO/ForkPoolWorker-1] -- BEGIN Twilio API Request --
+[2022-08-25 03:15:18,889: INFO/ForkPoolWorker-1] POST Request: https://api.twilio.com/2010-04-01/Accounts/AC91d35f2c7e8830c6f30c8dcc79b59382/Messages.json
+[2022-08-25 03:15:18,889: INFO/ForkPoolWorker-1] Headers:
+[2022-08-25 03:15:18,890: INFO/ForkPoolWorker-1] User-Agent : twilio-python/7.12.1 (Darwin x86_64) Python/3.9.13
+[2022-08-25 03:15:18,890: INFO/ForkPoolWorker-1] X-Twilio-Client : python-7.12.1
+[2022-08-25 03:15:18,891: INFO/ForkPoolWorker-1] Accept-Charset : utf-8
+[2022-08-25 03:15:18,891: INFO/ForkPoolWorker-1] Content-Type : application/x-www-form-urlencoded
+[2022-08-25 03:15:18,891: INFO/ForkPoolWorker-1] Accept : application/json
+[2022-08-25 03:15:18,892: INFO/ForkPoolWorker-1] -- END Twilio API Request --
+[2022-08-25 03:15:19,083: INFO/ForkPoolWorker-1] Response Status Code: 201
+[2022-08-25 03:15:19,084: INFO/ForkPoolWorker-1] Response Headers: {'Date': 'Thu, 25 Aug 2022 03:15:19 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '1154', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ31c9498cd7d16359affd88b499532f83', 'Twilio-Request-Duration': '0.129', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000'}
+[2022-08-25 03:15:19,088: INFO/ForkPoolWorker-1] Task send_daily_words_task[537a81f6-95fd-4102-8f6c-710f6db3692b] succeeded in 0.8443474129999999s: None
+[2022-08-25 03:15:31,815: INFO/MainProcess] Task send_daily_words_task[15557d77-c282-4603-bdf2-75e40402d1f9] received
+[2022-08-25 03:15:31,816: WARNING/ForkPoolWorker-1] send_daily_words executed
+[2022-08-25 03:15:31,819: INFO/ForkPoolWorker-1] -- BEGIN Twilio API Request --
+[2022-08-25 03:15:31,819: INFO/ForkPoolWorker-1] POST Request: https://api.twilio.com/2010-04-01/Accounts/AC91d35f2c7e8830c6f30c8dcc79b59382/Messages.json
+[2022-08-25 03:15:31,820: INFO/ForkPoolWorker-1] Headers:
+[2022-08-25 03:15:31,820: INFO/ForkPoolWorker-1] User-Agent : twilio-python/7.12.1 (Darwin x86_64) Python/3.9.13
+[2022-08-25 03:15:31,820: INFO/ForkPoolWorker-1] X-Twilio-Client : python-7.12.1
+[2022-08-25 03:15:31,820: INFO/ForkPoolWorker-1] Accept-Charset : utf-8
+[2022-08-25 03:15:31,820: INFO/ForkPoolWorker-1] Content-Type : application/x-www-form-urlencoded
+[2022-08-25 03:15:31,821: INFO/ForkPoolWorker-1] Accept : application/json
+[2022-08-25 03:15:31,821: INFO/ForkPoolWorker-1] -- END Twilio API Request --
+[2022-08-25 03:15:32,010: INFO/ForkPoolWorker-1] Response Status Code: 201
+[2022-08-25 03:15:32,011: INFO/ForkPoolWorker-1] Response Headers: {'Date': 'Thu, 25 Aug 2022 03:15:32 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '957', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQfd4da9e2bb558fceafe476e8aba7038e', 'Twilio-Request-Duration': '0.130', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000'}
+[2022-08-25 03:15:32,014: INFO/ForkPoolWorker-1] -- BEGIN Twilio API Request --
+[2022-08-25 03:15:32,014: INFO/ForkPoolWorker-1] POST Request: https://api.twilio.com/2010-04-01/Accounts/AC91d35f2c7e8830c6f30c8dcc79b59382/Messages.json
+[2022-08-25 03:15:32,015: INFO/ForkPoolWorker-1] Headers:
+[2022-08-25 03:15:32,015: INFO/ForkPoolWorker-1] User-Agent : twilio-python/7.12.1 (Darwin x86_64) Python/3.9.13
+[2022-08-25 03:15:32,016: INFO/ForkPoolWorker-1] X-Twilio-Client : python-7.12.1
+[2022-08-25 03:15:32,016: INFO/ForkPoolWorker-1] Accept-Charset : utf-8
+[2022-08-25 03:15:32,017: INFO/ForkPoolWorker-1] Content-Type : application/x-www-form-urlencoded
+[2022-08-25 03:15:32,017: INFO/ForkPoolWorker-1] Accept : application/json
+[2022-08-25 03:15:32,018: INFO/ForkPoolWorker-1] -- END Twilio API Request --
+[2022-08-25 03:15:32,210: INFO/ForkPoolWorker-1] Response Status Code: 201
+[2022-08-25 03:15:32,211: INFO/ForkPoolWorker-1] Response Headers: {'Date': 'Thu, 25 Aug 2022 03:15:32 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '1154', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ2003590546165cf712003787a93dc2c5', 'Twilio-Request-Duration': '0.135', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000'}
+[2022-08-25 03:15:32,213: INFO/ForkPoolWorker-1] Task send_daily_words_task[15557d77-c282-4603-bdf2-75e40402d1f9] succeeded in 0.3976992149999976s: None
+[2022-08-25 19:46:19,257: INFO/MainProcess] Connected to redis://localhost:6379//
+[2022-08-25 19:46:19,267: INFO/MainProcess] mingle: searching for neighbors
+[2022-08-25 19:46:20,285: INFO/MainProcess] mingle: all alone
+[2022-08-25 19:46:20,310: WARNING/MainProcess] /Users/b.vance/Coding Projects/daily_words_project/daily_words_backend/.venv/lib/python3.9/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-08-25 19:46:20,310: INFO/MainProcess] celery@Bens-MacBook-Air.local ready.
+[2022-08-25 19:46:20,314: INFO/MainProcess] Task send_daily_words_task[29d46953-929a-4401-876b-1a7af744ce17] received
+[2022-08-25 19:46:20,316: WARNING/ForkPoolWorker-1] send_daily_words executed
+[2022-08-25 19:46:20,558: INFO/ForkPoolWorker-1] -- BEGIN Twilio API Request --
+[2022-08-25 19:46:20,560: INFO/ForkPoolWorker-1] POST Request: https://api.twilio.com/2010-04-01/Accounts/AC91d35f2c7e8830c6f30c8dcc79b59382/Messages.json
+[2022-08-25 19:46:20,560: INFO/ForkPoolWorker-1] Headers:
+[2022-08-25 19:46:20,561: INFO/ForkPoolWorker-1] User-Agent : twilio-python/7.12.1 (Darwin x86_64) Python/3.9.13
+[2022-08-25 19:46:20,561: INFO/ForkPoolWorker-1] X-Twilio-Client : python-7.12.1
+[2022-08-25 19:46:20,562: INFO/ForkPoolWorker-1] Accept-Charset : utf-8
+[2022-08-25 19:46:20,562: INFO/ForkPoolWorker-1] Content-Type : application/x-www-form-urlencoded
+[2022-08-25 19:46:20,562: INFO/ForkPoolWorker-1] Accept : application/json
+[2022-08-25 19:46:20,563: INFO/ForkPoolWorker-1] -- END Twilio API Request --
+[2022-08-25 19:46:20,976: INFO/ForkPoolWorker-1] Response Status Code: 201
+[2022-08-25 19:46:20,977: INFO/ForkPoolWorker-1] Response Headers: {'Date': 'Thu, 25 Aug 2022 19:46:20 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '1181', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQa842550f11b5f558cfa8db1e04d5ccd6', 'Twilio-Request-Duration': '0.138', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000'}
+[2022-08-25 19:46:20,984: INFO/ForkPoolWorker-1] Task send_daily_words_task[29d46953-929a-4401-876b-1a7af744ce17] succeeded in 0.6685457009999998s: None
+[2022-08-25 19:46:42,721: INFO/MainProcess] Task send_daily_words_task[775ec549-b3b5-454d-8b9c-366ab16d5caf] received
+[2022-08-25 19:46:42,722: WARNING/ForkPoolWorker-1] send_daily_words executed
+[2022-08-25 19:46:42,741: INFO/ForkPoolWorker-1] -- BEGIN Twilio API Request --
+[2022-08-25 19:46:42,741: INFO/ForkPoolWorker-1] POST Request: https://api.twilio.com/2010-04-01/Accounts/AC91d35f2c7e8830c6f30c8dcc79b59382/Messages.json
+[2022-08-25 19:46:42,742: INFO/ForkPoolWorker-1] Headers:
+[2022-08-25 19:46:42,742: INFO/ForkPoolWorker-1] User-Agent : twilio-python/7.12.1 (Darwin x86_64) Python/3.9.13
+[2022-08-25 19:46:42,742: INFO/ForkPoolWorker-1] X-Twilio-Client : python-7.12.1
+[2022-08-25 19:46:42,743: INFO/ForkPoolWorker-1] Accept-Charset : utf-8
+[2022-08-25 19:46:42,743: INFO/ForkPoolWorker-1] Content-Type : application/x-www-form-urlencoded
+[2022-08-25 19:46:42,743: INFO/ForkPoolWorker-1] Accept : application/json
+[2022-08-25 19:46:42,744: INFO/ForkPoolWorker-1] -- END Twilio API Request --
+[2022-08-25 19:46:42,925: INFO/ForkPoolWorker-1] Response Status Code: 201
+[2022-08-25 19:46:42,925: INFO/ForkPoolWorker-1] Response Headers: {'Date': 'Thu, 25 Aug 2022 19:46:42 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '1181', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ7b42f32e39720ed99748fadd0a90ac83', 'Twilio-Request-Duration': '0.118', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000'}
+[2022-08-25 19:46:42,928: INFO/ForkPoolWorker-1] Task send_daily_words_task[775ec549-b3b5-454d-8b9c-366ab16d5caf] succeeded in 0.2055683160000008s: None
+[2022-08-25 19:47:12,724: INFO/MainProcess] Task send_daily_words_task[8addf8a6-b9eb-41ab-9225-25396c5e0f92] received
+[2022-08-25 19:47:12,727: WARNING/ForkPoolWorker-1] send_daily_words executed
+[2022-08-25 19:47:12,745: INFO/ForkPoolWorker-1] -- BEGIN Twilio API Request --
+[2022-08-25 19:47:12,746: INFO/ForkPoolWorker-1] POST Request: https://api.twilio.com/2010-04-01/Accounts/AC91d35f2c7e8830c6f30c8dcc79b59382/Messages.json
+[2022-08-25 19:47:12,746: INFO/ForkPoolWorker-1] Headers:
+[2022-08-25 19:47:12,746: INFO/ForkPoolWorker-1] User-Agent : twilio-python/7.12.1 (Darwin x86_64) Python/3.9.13
+[2022-08-25 19:47:12,747: INFO/ForkPoolWorker-1] X-Twilio-Client : python-7.12.1
+[2022-08-25 19:47:12,747: INFO/ForkPoolWorker-1] Accept-Charset : utf-8
+[2022-08-25 19:47:12,747: INFO/ForkPoolWorker-1] Content-Type : application/x-www-form-urlencoded
+[2022-08-25 19:47:12,747: INFO/ForkPoolWorker-1] Accept : application/json
+[2022-08-25 19:47:12,748: INFO/ForkPoolWorker-1] -- END Twilio API Request --
+[2022-08-25 19:47:13,016: INFO/ForkPoolWorker-1] Response Status Code: 201
+[2022-08-25 19:47:13,017: INFO/ForkPoolWorker-1] Response Headers: {'Date': 'Thu, 25 Aug 2022 19:47:12 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '1181', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ33b6565cfaa8aead092ea284288bb0b9', 'Twilio-Request-Duration': '0.201', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000'}
+[2022-08-25 19:47:13,019: INFO/ForkPoolWorker-1] Task send_daily_words_task[8addf8a6-b9eb-41ab-9225-25396c5e0f92] succeeded in 0.2924866060000042s: None
+[2022-08-25 19:57:15,684: INFO/MainProcess] Connected to redis://localhost:6379//
+[2022-08-25 19:57:15,691: INFO/MainProcess] mingle: searching for neighbors
+[2022-08-25 19:57:16,707: INFO/MainProcess] mingle: all alone
+[2022-08-25 19:57:16,732: WARNING/MainProcess] /Users/b.vance/Coding Projects/daily_words_project/daily_words_backend/.venv/lib/python3.9/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-08-25 19:57:16,732: INFO/MainProcess] celery@Bens-MacBook-Air.local ready.
+[2022-08-25 19:57:16,736: INFO/MainProcess] Task send_daily_words_task[0dca358e-bcfe-46a9-8425-3798e3b97f19] received
+[2022-08-25 19:57:16,738: WARNING/ForkPoolWorker-1] send_daily_words executed
+[2022-08-25 19:57:16,964: INFO/ForkPoolWorker-1] -- BEGIN Twilio API Request --
+[2022-08-25 19:57:16,964: INFO/ForkPoolWorker-1] POST Request: https://api.twilio.com/2010-04-01/Accounts/AC91d35f2c7e8830c6f30c8dcc79b59382/Messages.json
+[2022-08-25 19:57:16,965: INFO/ForkPoolWorker-1] Headers:
+[2022-08-25 19:57:16,965: INFO/ForkPoolWorker-1] User-Agent : twilio-python/7.12.1 (Darwin x86_64) Python/3.9.13
+[2022-08-25 19:57:16,965: INFO/ForkPoolWorker-1] X-Twilio-Client : python-7.12.1
+[2022-08-25 19:57:16,966: INFO/ForkPoolWorker-1] Accept-Charset : utf-8
+[2022-08-25 19:57:16,966: INFO/ForkPoolWorker-1] Content-Type : application/x-www-form-urlencoded
+[2022-08-25 19:57:16,966: INFO/ForkPoolWorker-1] Accept : application/json
+[2022-08-25 19:57:16,967: INFO/ForkPoolWorker-1] -- END Twilio API Request --
+[2022-08-25 19:57:17,376: INFO/ForkPoolWorker-1] Response Status Code: 201
+[2022-08-25 19:57:17,377: INFO/ForkPoolWorker-1] Response Headers: {'Date': 'Thu, 25 Aug 2022 19:57:17 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '1149', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQca3f8ccd0c4001a6b9071fd4278cca40', 'Twilio-Request-Duration': '0.157', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000'}
+[2022-08-25 19:57:17,383: INFO/ForkPoolWorker-1] Task send_daily_words_task[0dca358e-bcfe-46a9-8425-3798e3b97f19] succeeded in 0.6461866349999998s: None
+[2022-08-25 19:57:41,940: INFO/MainProcess] Task send_daily_words_task[4ce0d1ab-3ad9-4e42-8ff8-f1c7f722f193] received
+[2022-08-25 19:57:41,943: WARNING/ForkPoolWorker-1] send_daily_words executed
+[2022-08-25 19:57:41,962: INFO/ForkPoolWorker-1] -- BEGIN Twilio API Request --
+[2022-08-25 19:57:41,962: INFO/ForkPoolWorker-1] POST Request: https://api.twilio.com/2010-04-01/Accounts/AC91d35f2c7e8830c6f30c8dcc79b59382/Messages.json
+[2022-08-25 19:57:41,963: INFO/ForkPoolWorker-1] Headers:
+[2022-08-25 19:57:41,963: INFO/ForkPoolWorker-1] User-Agent : twilio-python/7.12.1 (Darwin x86_64) Python/3.9.13
+[2022-08-25 19:57:41,963: INFO/ForkPoolWorker-1] X-Twilio-Client : python-7.12.1
+[2022-08-25 19:57:41,963: INFO/ForkPoolWorker-1] Accept-Charset : utf-8
+[2022-08-25 19:57:41,964: INFO/ForkPoolWorker-1] Content-Type : application/x-www-form-urlencoded
+[2022-08-25 19:57:41,964: INFO/ForkPoolWorker-1] Accept : application/json
+[2022-08-25 19:57:41,964: INFO/ForkPoolWorker-1] -- END Twilio API Request --
+[2022-08-25 19:57:42,227: INFO/ForkPoolWorker-1] Response Status Code: 201
+[2022-08-25 19:57:42,228: INFO/ForkPoolWorker-1] Response Headers: {'Date': 'Thu, 25 Aug 2022 19:57:42 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '1149', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ9c702a4462b507be07835f4ed987413a', 'Twilio-Request-Duration': '0.208', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag', 'Access-Control-Allow-Credentials': 'true', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000'}
+[2022-08-25 19:57:42,230: INFO/ForkPoolWorker-1] Task send_daily_words_task[4ce0d1ab-3ad9-4e42-8ff8-f1c7f722f193] succeeded in 0.2873869330000005s: None

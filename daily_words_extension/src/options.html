@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>DailyWords Options</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <fieldset>
+            <p>Send me <input type="text" name="num-words" id="num-words"> words per day.</p>
+            <legend>Send my words to my: </legend>
+            <input type="checkbox" name="phone" id="phone" value="phone">Phone<br>
+            <input type="checkbox" name="email" id="email" value="email">Email<br>
+            <div id="numberfield" style="display: none;">
+                <label for="number">My Phone Number Is: </label><br>
+                <input type="text" name="number" id="number">
+            </div>
+        </fieldset>
+
+        <div id="status"></div>
+        <button id="save">Save</button>
+        
+        <script src="options.js"></script>
+    </body>
+</html>
